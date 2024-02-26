@@ -46,34 +46,29 @@ finally:
 
 #LECTURE SECTION 2
 try:
-      if len(data)  == 0:
+      if len(data) == 0:
             raise Exception("No data exists.")
-      for record in data:
-            items = record.split(',')
-            title = items[0]
-            name = items[1]
-            salary = float(items[2])
-            
-            #LECTURE SECTION 3
-            #REQUIREMENT:  NOTE RECORDS THAT EXCEED OR WILL EXCEED HIGH_SALARY AMOUNT
-            if salary > HIGH_SALARY:
-                  logging.warning(f"{name}'s salary {salary} "
-                        + f"is currently above "
-                        + f"the recommended maximum "
-                        + f"{HIGH_SALARY}.")
+      else:
+            for record in data:
+                  items = record.split(',')
+                  title = items[0]
+                  name = items[1]
+                  salary = float(items[2])
                   
-            if salary * (1 + RECOMMENDED_INCREASE) > HIGH_SALARY:
-                  logging.warning(f"{name}'s salary {salary} will be "
-                                    + f"above the recommended maximum"
-                                    + f" of {HIGH_SALARY} "
-                                    + f"with the planned "
-                                    + f"{RECOMMENDED_INCREASE} increase.")
+                  #LECTURE SECTION 3
+                  if salary > HIGH_SALARY:
+                        logging.warning(f"{name}'s salary {salary}, is currently above the recommended maximum of {HIGH_SALARY}.")
+                  if salary * (1 + RECOMMENDED_INCREASE) > HIGH_SALARY:
+                        logging.warning(f"{name}'s salary {salary}, will be above the recommended maximum {HIGH_SALARY}, with the planned {RECOMMENDED_INCREASE} increase.")
+                  #REQUIREMENT:  NOTE RECORDS THAT EXCEED OR WILL EXCEED HIGH_SALARY AMOUNT
+                  salary *= (1 + RECOMMENDED_INCREASE)
 
+                  #salary = salary * (0.8)
 
-
+                  new_data.append([title,name,salary])
 except Exception as e:
       #print(e)
-      logging.error("Exception processing data.")
+      logging.exception("Exception processing data.")
 
 
 #LECTURE SECTION 4

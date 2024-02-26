@@ -1,19 +1,4 @@
-2024-02-26 09:41:54,964 - ERROR - division by zero
-2024-02-26 09:41:54,965 - INFO - File Closed.
-2024-02-26 09:41:54,965 - WARNING - Jo-Anne Sinclair's salary 140000.0 is currently above the recommended maximum 120000.
-2024-02-26 09:41:54,965 - WARNING - Jo-Anne Sinclair's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,965 - WARNING - Jackson Smith's salary 130000.0 is currently above the recommended maximum 120000.
-2024-02-26 09:41:54,966 - WARNING - Jackson Smith's salary 130000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,966 - WARNING - Susan Thomas's salary 120000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,966 - WARNING - Richa Kaur's salary 110000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,966 - WARNING - Josee Benjamin's salary 140000.0 is currently above the recommended maximum 120000.
-2024-02-26 09:41:54,966 - WARNING - Josee Benjamin's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,966 - WARNING - Stien Pedersen's salary 140000.0 is currently above the recommended maximum 120000.
-2024-02-26 09:41:54,966 - WARNING - Stien Pedersen's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,966 - WARNING - Cheryl Guru's salary 140000.0 is currently above the recommended maximum 120000.
-2024-02-26 09:41:54,966 - WARNING - Cheryl Guru's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
-2024-02-26 09:41:54,967 - DEBUG - Debug level message.
-2024-02-26 09:41:54,967 - INFO - Info level message.
-2024-02-26 09:41:54,968 - WARNING - Warning level message.
-2024-02-26 09:41:54,968 - ERROR - Error level message.
-2024-02-26 09:41:54,968 - CRITICAL - Critical level message.
+2024-02-26 10:13:19,478 - ERROR - division by zero
+2024-02-26 10:13:19,479 - INFO - File Closed.
+2024-02-26 10:14:03,310 - WARNING - Jo-Anne Sinclair's salary 140000.0, is currently above the recommended maximum of 120000.
+2024-02-26 10:14:04,213 - WARNING - Jo-Anne Sinclair's salary 140000.0, will be above the recommended maximum 120000, with the planned 0.2 increase.
