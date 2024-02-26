@@ -1,0 +1,19 @@
+2024-02-26 09:21:28,992 - ERROR - division by zero
+2024-02-26 09:21:28,993 - INFO - File Closed.
+2024-02-26 09:21:28,993 - WARNING - Jo-Anne Sinclair's salary 140000.0 is currently above the recommended maximum 120000.
+2024-02-26 09:21:28,993 - WARNING - Jo-Anne Sinclair's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,993 - WARNING - Jackson Smith's salary 130000.0 is currently above the recommended maximum 120000.
+2024-02-26 09:21:28,993 - WARNING - Jackson Smith's salary 130000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,993 - WARNING - Susan Thomas's salary 120000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,993 - WARNING - Richa Kaur's salary 110000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,993 - WARNING - Josee Benjamin's salary 140000.0 is currently above the recommended maximum 120000.
+2024-02-26 09:21:28,993 - WARNING - Josee Benjamin's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,993 - WARNING - Stien Pedersen's salary 140000.0 is currently above the recommended maximum 120000.
+2024-02-26 09:21:28,993 - WARNING - Stien Pedersen's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,993 - WARNING - Cheryl Guru's salary 140000.0 is currently above the recommended maximum 120000.
+2024-02-26 09:21:28,993 - WARNING - Cheryl Guru's salary 140000.0 will be above the recommended maximum of 120000 with the planned 0.2 increase.
+2024-02-26 09:21:28,994 - DEBUG - Debug level message.
+2024-02-26 09:21:28,994 - INFO - Info level message.
+2024-02-26 09:21:28,994 - WARNING - Warning level message.
+2024-02-26 09:21:28,994 - ERROR - Error level message.
+2024-02-26 09:21:28,994 - CRITICAL - Critical level message.
